@@ -1,0 +1,43 @@
+git --version
+git config user.name
+git config user.email
+
+git config --global --list
+
+git status
+git add .
+git commit -m "test1"
+git push -u "https://gitlab.com/saptarshi7011/test.git" master
+
+
+ssh - secured shell
+authentication, by setting SSH key, you can connect to gitlab server without using  username and password each time
+
+
+Open source continuous integration service included with Gitlb
+
+
+######Gitlab runner
+Microsoft Windows [Version 10.0.19043.1889]
+(c) Microsoft Corporation. All rights reserved.
+
+gitlab-runner.exe register
+
+https://gitlab.com/
+Enter the registration token:
+GR1348941gKDJZzUxCGoTpFT6F8A_
+Enter a description for the runner:
+[DESKTOP-LUS2FTG]: runner_1
+Enter tags for the runner (comma-separated):
+ssh, ci
+Enter optional maintenance note for the runner:
+runner_1
+Registering runner... succeeded                     runner=GR1348941gKDJZzUx
+Enter an executor: parallels, ssh, virtualbox, docker+machine, kubernetes, custom, docker-ssh, shell, docker-ssh+machine, docker, docker-windows:
+shell
+Runner registered successfully. Feel free to start it, but if it's running already the config should be automatically reloaded!
+
+######Gitlab runner end
+
+
+https://www.freecodecamp.org/news/ml-model-publishing-with-gitlab-package-registry/
